@@ -1,38 +1,53 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+<h1 align="center">
+    <img src="./github/assets/cover.png">
+</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+### Sobre o projeto
 
+Nesse desafio, eu tive que criar testes unitários para uma aplicação já pronta usando tudo o que eu aprendi até agora sobre testes.
 
-## 💻 Projeto
+### Tecnologias
 
-ignite-template-tests-challenge
+**bcryptjs**: Para criptografia de senhas.
+Documentação: [bcryptjs no GitHub](https://github.com/dcodeIO/bcrypt.js)
 
-## 📝 Licença
+**cors**: Para lidar com política de mesmo domínio.
+Documentação: [cors no GitHub](https://github.com/expressjs/cors)
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+**express**: Um framework da web para Node.js.
+Documentação: [Express.js](https://expressjs.com/)
 
----
+**express-async-errors**: Lidando com erros assíncronos no Express.js.
+Documentação: [express-async-errors no GitHub](https://github.com/davidbanham/express-async-errors)
 
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+**jsonwebtoken**: Para autenticação baseada em tokens JWT.
+Documentação: [jsonwebtoken no GitHub](https://github.com/auth0/node-jsonwebtoken)
 
+**pg**: Cliente PostgreSQL para Node.js.
+Documentação: [node-postgres](https://node-postgres.com/)
 
-<!--START_SECTION:footer-->
+**reflect-metadata**: Para adicionar metadados a classes, métodos e propriedades.
+Documentação: [reflect-metadata no GitHub](https://github.com/rbuckton/reflect-metadata)
 
-<br />
-<br />
+**tsyringe**: Um container de inversão de controle (IoC) para TypeScript.
+Documentação: [tsyringe no GitHub](https://github.com/microsoft/tsyringe)
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+**typeorm**: ORM (Object-Relational Mapping) para TypeScript e JavaScript (Node.js).
+Documentação: [TypeORM](https://typeorm.io/)
 
-<!--END_SECTION:footer-->
+**uuid**: Para geração de identificadores únicos.
+Documentação: [uuid no GitHub](https://github.com/uuidjs/uuid)
 
+### Instalação
+
+```sh
+yarn
+```
+
+### Contribuição
+
+Contribuições são bem-vindas! Para contribuir, basta abrir uma issue ou pull request neste repositório.
+
+### Autor
+
+Feito por Mauricio Aires 👋🏽
