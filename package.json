@@ -7,7 +7,8 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli",
     "test": "NODE_ENV=test jest",
-    "test:watch": "NODE_ENV=test jest --watch"
+    "docker:logs": "docker logs test-challenge",
+    "docker:restart": "docker restart test-challenge"
   },
   "dependencies": {
     "@types/jest": "^29.5.4",
