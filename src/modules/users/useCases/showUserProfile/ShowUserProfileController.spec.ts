@@ -9,7 +9,7 @@ describe("ShowUserProfileController", () => {
   beforeAll(async () => {
     connection = await createConnection();
 
-    const a = await connection.runMigrations();
+    await connection.runMigrations();
   });
 
   afterAll(async () => {
