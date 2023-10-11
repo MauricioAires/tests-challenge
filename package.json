@@ -8,7 +8,7 @@
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watch",
-    "docker:logs": "docker logs test-challenge",
+    "docker:logs": "docker logs test-challenge -f",
     "docker:restart": "docker restart test-challenge"
   },
   "dependencies": {
