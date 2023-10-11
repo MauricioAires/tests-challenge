@@ -44,6 +44,15 @@ Documentação: [uuid no GitHub](https://github.com/uuidjs/uuid)
 yarn
 ```
 
+### Comandos
+
+```sh
+
+# Iniciar docker compose
+$ docker-compose up
+
+```
+
 ### Contribuição
 
 Contribuições são bem-vindas! Para contribuir, basta abrir uma issue ou pull request neste repositório.
